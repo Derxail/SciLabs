@@ -76,7 +76,7 @@ int main(int argc, char **argv)
 
   gmsh::model::mesh::generate(3);
 
-  gmsh::write("seal.msh");
+  gmsh::write("mesh/seal.msh");
 
   // Launch the GUI to see the results:
   std::set<std::string> args(argv, argv + argc);
