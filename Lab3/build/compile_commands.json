@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab3/build",
+  "command": "/usr/bin/g++   -Wno-comment -std=c++11 -g -g -o CMakeFiles/crown.dir/src/crown.cpp.o -c /mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab3/src/crown.cpp",
+  "file": "/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab3/src/crown.cpp",
+  "output": "CMakeFiles/crown.dir/src/crown.cpp.o"
+},
+{
+  "directory": "/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab3/build",
+  "command": "/usr/bin/g++ -DDOLFIN_VERSION=\\\"2019.2.0.64.dev0\\\" -DHAS_CHOLMOD -DHAS_HDF5 -DHAS_MPI -DHAS_PETSC -DHAS_SCOTCH -DHAS_SLEPC -DHAS_UMFPACK -DHAS_ZLIB -DNDEBUG -isystem /usr/lib/python3/dist-packages/ffc/backends/ufc -isystem /usr/include/eigen3 -isystem /usr/include/hdf5/openmpi -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -isystem /usr/lib/slepcdir/slepc3.19/x86_64-linux-gnu-real/include -isystem /usr/lib/petscdir/petsc3.19/x86_64-linux-gnu-real/include -Wno-comment -std=c++11 -g -g -std=c++11 -o CMakeFiles/lab3.dir/src/main.cpp.o -c /mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab3/src/main.cpp",
+  "file": "/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab3/src/main.cpp",
+  "output": "CMakeFiles/lab3.dir/src/main.cpp.o"
+}
+]

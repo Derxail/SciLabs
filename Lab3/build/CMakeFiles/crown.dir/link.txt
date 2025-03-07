@@ -1,0 +1,1 @@
+/usr/bin/g++ -Wno-comment -std=c++11 -g -g CMakeFiles/crown.dir/src/crown.cpp.o -o /mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab3/crown  /usr/lib/x86_64-linux-gnu/libgmsh.so 

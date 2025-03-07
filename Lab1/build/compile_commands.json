@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab1/build",
+  "command": "/usr/bin/g++   -std=c++11 -g -g -o CMakeFiles/seal.dir/task2-seal.cpp.o -c /mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab1/task2-seal.cpp",
+  "file": "/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab1/task2-seal.cpp",
+  "output": "CMakeFiles/seal.dir/task2-seal.cpp.o"
+},
+{
+  "directory": "/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab1/build",
+  "command": "/usr/bin/g++   -std=c++11 -g -g -o CMakeFiles/torus.dir/task1-torus.cpp.o -c /mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab1/task1-torus.cpp",
+  "file": "/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab1/task1-torus.cpp",
+  "output": "CMakeFiles/torus.dir/task1-torus.cpp.o"
+}
+]

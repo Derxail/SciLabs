@@ -1,0 +1,4 @@
+/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab1/build/CMakeFiles/seal.dir
+/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab1/build/CMakeFiles/torus.dir
+/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab1/build/CMakeFiles/edit_cache.dir
+/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab1/build/CMakeFiles/rebuild_cache.dir
