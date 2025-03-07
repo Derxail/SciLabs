@@ -1,1 +1,1 @@
-/usr/bin/g++ -std=c++11 -g -g "CMakeFiles/torus.dir/task1-torus.cpp.o" -o torus  /usr/lib/x86_64-linux-gnu/libgmsh.so 
+/usr/bin/g++ -std=c++11 -g -g "CMakeFiles/torus.dir/task1-torus.cpp.o" -o /mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab1/torus  /usr/lib/x86_64-linux-gnu/libgmsh.so 

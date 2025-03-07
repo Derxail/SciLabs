@@ -1,1 +1,1 @@
-/usr/bin/g++ -std=c++11 -g -g "CMakeFiles/seal.dir/task2-seal.cpp.o" -o seal  /usr/lib/x86_64-linux-gnu/libgmsh.so 
+/usr/bin/g++ -std=c++11 -g -g "CMakeFiles/seal.dir/task2-seal.cpp.o" -o /mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab1/seal  /usr/lib/x86_64-linux-gnu/libgmsh.so 

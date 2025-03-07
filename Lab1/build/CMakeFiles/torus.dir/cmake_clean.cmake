@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab1/torus"
+  "/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab1/torus.pdb"
   "CMakeFiles/torus.dir/task1-torus.cpp.o"
   "CMakeFiles/torus.dir/task1-torus.cpp.o.d"
-  "torus"
-  "torus.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

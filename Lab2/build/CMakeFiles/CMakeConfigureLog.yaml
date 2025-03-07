@@ -2070,3 +2070,84 @@ events:
         
       exitCode: 2
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:16 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab2/build/CMakeFiles/CMakeScratch/TryCompile-lqL7Jp"
+      binary: "/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab2/build/CMakeFiles/CMakeScratch/TryCompile-lqL7Jp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab2/build/CMakeFiles/CMakeScratch/TryCompile-lqL7Jp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d97f1/fast
+        gmake: Warning: File 'Makefile' has modification time 0.53 s in the future
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d97f1.dir/build.make CMakeFiles/cmTC_d97f1.dir/build
+        gmake[1]: Entering directory '/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab2/build/CMakeFiles/CMakeScratch/TryCompile-lqL7Jp'
+        gmake[1]: Warning: File 'CMakeFiles/cmTC_d97f1.dir/flags.make' has modification time 0.5 s in the future
+        Building C object CMakeFiles/cmTC_d97f1.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_d97f1.dir/test_mpi.c.o -c /mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab2/build/CMakeFiles/CMakeScratch/TryCompile-lqL7Jp/test_mpi.c
+        Linking C executable cmTC_d97f1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d97f1.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_d97f1.dir/test_mpi.c.o -o cmTC_d97f1  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+        gmake[1]: Leaving directory '/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab2/build/CMakeFiles/CMakeScratch/TryCompile-lqL7Jp'
+        gmake: warning:  Clock skew detected.  Your build may be incomplete.
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:16 (find_package)"
+    directories:
+      source: "/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab2/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab2/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab2/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3c223/fast
+        gmake: Warning: File 'Makefile' has modification time 0.56 s in the future
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3c223.dir/build.make CMakeFiles/cmTC_3c223.dir/build
+        gmake[1]: Entering directory '/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab2/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake[1]: Warning: File 'CMakeFiles/cmTC_3c223.dir/flags.make' has modification time 0.54 s in the future
+        Building C object CMakeFiles/cmTC_3c223.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_3c223.dir/cmake_hdf5_test.c.o -c /mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab2/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab2/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_3c223.dir/build.make:78: CMakeFiles/cmTC_3c223.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab2/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_3c223/fast] Error 2
+        
+      exitCode: 2
+...

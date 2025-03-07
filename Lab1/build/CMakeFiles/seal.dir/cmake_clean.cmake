@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab1/seal"
+  "/mnt/d/Work/Learning/MIPT/MIPT-Labs/SciCompTech/SciLabs/Lab1/seal.pdb"
   "CMakeFiles/seal.dir/task2-seal.cpp.o"
   "CMakeFiles/seal.dir/task2-seal.cpp.o.d"
-  "seal"
-  "seal.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
